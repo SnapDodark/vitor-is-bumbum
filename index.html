@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<title>Quiz para programadores</title>
+		<meta name="description" content="um quiz interativo para testar seus conhecimentos">
+	</head>
+    <body>
+		<header>
+			<h1>Quiz interativo para programadores</h1>
+			<p>Teste seus conhecimentos em programação!</p>
+		</header>
+	    <main>
+			<!--Introdução-->
+			<section>
+				<h2>Sobre esse quiz</h2>
+				<p>Vitor gosta de dar a bunda</p>
+				<p>Vitor <em>rei do marketing</em></p>
+				<p>Kauan <b>goza e <abbr title="seqsu">dorme</abbr></b></p>
+			</section>
+			<!--Pergunta 1: multipla escolha-->
+			<section>
+				<h2>Pergunta 1: Vitor da a bunda ou não?</h2>
+				 <form>
+					<input type="radio" value="Python" id="p1a" name="Pergunta 1">
+					<label for="p1a">Sim</label><br>
+					<input type="radio" value="Html" id="p1b" name="Pergunta 1">
+					<label for="p1a">Talvez</label><br>
+					<input type="radio" value="Javascript" id="p1c" name="Pergunta 1">
+					<label for="p1a">Se pagar sim</label><br>
+					<input type="radio" value="Ruby" id="p1d" name="Pergunta 1">
+					<label for="p1a">Claro</label>
+				 </form>
+			</section>
+			<!--Pergunta 2: texto-->
+			<section>
+				<h2>Pergunta 2: o vitor ainda ama a Ana julia?</h2>
+				<form>
+					<input type="text" id="p2" name="pergunta 2"
+					placeholder="Digite sua resposta...">
+				</form>
+			</section>
+			<!--Pergunta 3: senha-->
+			<section>
+				<h2>
+					Pergunta 3: Escreva porque o vitor continua sendo gay:
+				</h2>
+				<form>
+					<input type="password" id="P3"
+					name="Pergunta 3" placeholder="Digite sua resposta...">
+				</form>
+			</section>
+			<!--Pergunta 4: data-->
+			<section>
+				<h2>
+					Ta dando a bunda des de quando?
+				</h2>
+				<form>
+					<input type="date" id="P4" name="Pergunta 4"
+					>
+				</form>
+			</section>
+			<!--Pergunta 5: seleção multipla-->
+			<section>
+				<h2>Pergunta 5: Você prefere sentar no bolo e lamber minha pica, ou lamber o bolo e sentar na pica?</h2>
+			</section>
+			<form>
+				<input type="checkbox" id="p5" name="Pergunta 5"
+				value="Javascript">
+				<label for="p5">Sentar no bolo e lamber minha pica</label>
+			</form>
+			<form>
+				<input type="checkbox" id="p5" name="Pergunta 5"
+				value="Javascript">
+				<label for="p5">Sentar na minha pica e lamber o bolo</label>
+			</form>
+			<!--Pergunta 6:-->
+			<section>
+				<h2>Faça upload de um arquivo com todos seus produtos</h2>
+				<form>
+					<input type="file" id="p6"
+					name="pergunta6">
+				</form>
+			</section>
+			<!--Pergunta 7: menu suspenso-->
+			<section>
+				<h2>Selecione o atributo do input</h2>
+				<form>
+					<select name="pergunta7" id="p7"></select>
+					<option value="id">id</option>
+					<option value="type">Type</option>
+					<option value="placeholder">placeholder</option>
+				</form>
+
+			</section>
+			<!--pergunta 8: imagem-->
+			<h2>Imagem do bumbum</h2>
+			<figure>
+			<img src="https://hexsel.com.br/wp-content/uploads/2023/04/bumbum-bonito.jpg" alt="logotipo de uma imagem de programação"><br>
+			<input type="text" id="p8" name="pergunta8" placeholder="digite sua resposta...">
+		     <figcaption>Foto do bumbum bonito</figcaption>
+		</figure>
+		<!--tabela de pontuação-->
+		<section>
+			<h2>tabela de pontuação</h2>
+			<table border="1">
+				<tr>
+					<th>
+						PONTUAÇÃO
+					</th>
+					<TH>AVALIAÇÃO</TH>
+				</tr>
+				<tr>
+					<td>0-2</td>
+					<td>bumbum guloso ganhou</td>
+				</tr>
+				<td>2-4</td>
+				<td>voce perdeu pro bumbum guloso</td>
+				<TR>
+					<TD colspan="2">
+						bumbum guloso wins
+					</TD>
+				</TR>
+			</table>
+		</section>
+		<!--REspostas-->
+		<section>
+			<h2>RESPOSTAS</h2>
+			<details>
+				<summary> clique para ver as respostas</summary>
+			<ol>
+				<li>bumbum bonito</li>
+				<li>ana julia fdp</li>
+				<li>Programar é coisa de quem faz dinheiro</li>
+			</details>
+			</ol>
+		</section>
+		<!--Formulario-->
+		<section>
+			<h2>me de seu feedback</h2>
+			<form>
+				<fieldset>
+					<legend>VITOR BUMBUM GULOSO</legend>
+				<label for="name">nome:</label> <br>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">E-mail</label> <br>
+				<input type="email" id="email" name="email"><br>
+				<label for="number">numero</label> <br>
+				<input type="number" id="number" name="number"><br>
+				<label for="comentarios">Comentarios</label><br>
+				<textarea name="comentarios" id="comentarios" rows="4" cols="50"
+				placeholder="Digite seu comentario aqui..."></textarea><br>
+				<button onclick="alert('FEEDBACK ENVIADO')">envie o feedback</button>
+			</fieldset>
+			</form>
+		</section>
+		</main>
+		<footer>
+			<p>&copy Quiz do bumbum do vitor. Todos os direitos reservados a Kauan.dev</p>
+		     <p>Clique <b> <a href="http://127.0.0.1:3000/outrapagina.html" target="_blank">aqui</a></b>  para ver o maior bumbum guloso</p>
+		</footer>
+</body>
+</html>
